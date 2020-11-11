@@ -1,0 +1,30 @@
+body {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.bio {
+    background-color: #F68800 !important;
+    opacity: 0.9;
+}
+
+.logo {
+    width: 50%;
+    z-index: 100;
+}
+
+.btn-outline-primary {
+    border-width: .25rem !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {
+    background-color: black;
+    
+}
+
+a.text-dark:hover, a.text-dark:active, a.text-dark:focus {
+    color: white !important;
+}
