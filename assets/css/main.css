@@ -1,6 +1,6 @@
 body {
     background-image: url('/assets/img/background.jpg');
-    background-size: cover;
+    background-size: fill;
     font-size: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -23,6 +23,12 @@ body {
         max-width: 50%;
     }
 
+ }
+
+ .dude {
+     display: block;
+     max-width: 25%;
+     left: auto;
  }
 
 .btn {
